@@ -9,7 +9,7 @@ def oxford_comma(array)
     while counter < array.size - 2
       array.each do |item|
         first << item
-        item += 1
+        counter += 1
       end
     end
     last = array.last
