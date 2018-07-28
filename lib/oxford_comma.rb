@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.size > 2
     first = []
     counter = 0
-    while counter < array.size - 2
+    while counter < array.size - 1
       array.each do |item|
         first << item
         counter += 1
